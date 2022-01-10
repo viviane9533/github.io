@@ -446,6 +446,10 @@ textarea {
   width: 100%;
   margin-bottom: 6rem; }
 
+  .project-details__showcase-img-contW {
+    width: 50%;
+    margin-bottom: 6rem; }
+
 .project-details__showcase-img {
   width: 100%; }
 
@@ -702,3 +706,17 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
