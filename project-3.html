@@ -84,7 +84,7 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">LifeStyle</h1>
+        <h1 class="heading-primary">NBA Dataset</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
             In my computer science class, my group and I created a web application provides a user-friendly interface to navigate a complete NBA roster along with providing statistical insights and graphics.
@@ -114,68 +114,106 @@
               <p class="project-details__desc-para">
                 In my Introduction to Software Engineering class we created a project. This is a team project (5 students per team). The goal is to build a data analytics app mostly from scratch (i.e., without using any database or analytics library). The app provides predefined data analytics for gaining insights from the data. Initially, the app can be populated with some public dataset in CSV format. 
               </p>
-            <div class="iframe-container">
-              <iframe src="https://drive.google.com/file/d/1QPTJF7xGnNNaJJJQT76OMv4tptSlqw2B/preview" width="640" height="480" allow="autoplay"></iframe>
-            </div>
+              <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT86tUlVbWAVhuS0fXkwDba6qTUB056OzkJer9XAWVfUxyqrzGlV9N3hBC5gtcFWZX5iq55qmG7H6rE/embed?start=true&loop=true&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div>
 
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Task</h3>
               <p class="project-details__desc-para">
-                We need a data analytics application to present the NBA Dataset. Also use data analytics to show visual representation of the data.
+                We need a data analytics application to present the NBA Dataset (below). Also use data analytics to show visual representation of the data. The in-memory data store should follow a layered client-server architecture as shown below
               </p>
               <div class="project-details__showcase-img-cont">
                 <img
-                  src="./assets/png/chart.png"
+                  src="./assets/png/dataset.png"
+                  alt="Project Image"
+                  class="project-details__showcase-img"
+                />
+              </div>
+              <div class="project-details__showcase-img-cont">
+                <img
+                  src="./assets/png/Client.png"
                   alt="Project Image"
                   class="project-details__showcase-img"
                 />
               </div>
             </div>
             <div class="project-details__desc">
-              <h3 class="project-details__content-title">Design</h3>
+              <h3 class="project-details__content-title">Features</h3>
               <p class="project-details__desc-para">
-                I was responsible in creating each Interface for the project. We wanted a user-friendly and appealing interface which is easy to navigate. I start off creating wireframes on Miro.
-              </p>              
+                We need had to implement many features as a requirement for our project. Below are all the fully functioning features we successfully implemented!
+              </p>
               <div class="project-details__showcase-img-cont">
                 <img
-                  src="./assets/png/colors.png"
+                  src="./assets/png/NBAFeatures.png"
                   alt="Project Image"
                   class="project-details__showcase-img"
                 />
               </div>
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Design</h3>
+              <p class="project-details__desc-para">
+                I was responsible in creating each Interface for the project. We wanted a user-friendly and appealing interface which is easy to navigate. I start off creating wireframes on Miro.
+              </p>              
             <br>
             <iframe width="777" height="432" src="https://miro.com/app/live-embed/uXjVO6zQlNs=/?moveToViewport=-3523,-6080,10959,5211" frameBorder="0" scrolling="no" allowFullScreen></iframe>
             <p class="project-details__desc-para">
-              The Dashboard was the main page users would see as it is the homepage that links to all features of the app. Since a lot of users where going to see this portion of the application, I wanted to make sure it looked good and was functing well.
+              The Homepage is where the user can access all the features of our application. We have a sidebar which accesses the three analytic graphs. 
+              Starting at the top we have a toggle button that switches between the Home table and the MVP table. 
+              Then we have a search bar where you can search up any player you want. 
+              Below we have two drop down filters that will filter the data in the table. The first filter will filter the Year and the second filters based on Teams. Once you’ve inputted those parameters you click the search button and it the page will update with a table that it filtered based on your selections. 
             </p>
             <div class="project-details__showcase-img-cont">
               <img
-                src="./assets/png/dashLifestyle.png"
+                src="./assets/png/NBADash.png"
                 alt="Project Image"
                 class="project-details__showcase-img"
               />
             </div>
             <br>
             <p class="project-details__desc-para">
-              I decided that each feature would have a different color scheme. For example the To-Do list was blue colored and the Calender was orange colored. Here is an example of the Calender.
-            </p>
+              These are the pop up for the add player and edit player features. Once you click on those buttons the pop up will appear. The add a player pop up requires users to input the necessary information. 
+              The edit player pop up is basically the same but I wanted the player’s original data to be prefilled on the form so you can see what is being edited. 
+              </p>
             <div class="project-details__showcase-img-cont">
               <img
-                src="./assets/png/Calender.png"
+                src="./assets/png/NBApopup.png"
                 alt="Project Image"
                 class="project-details__showcase-img"
               />
             </div>
             <br>
             <p class="project-details__desc-para">
-              The Login Page was the main part of the project I was responsible for. I used HTML/CSS to create all the features and buttons. One part of the project that 
-              many liked was the background of the login page. Since the whole program was different colors I decided to have an interactive gradient moving background for the login page.
-              As you can see in the video, the login page's background changes colors using all the colors.
+              Here we have the MVP table that you can access using the toggle button at the top. It will show the table of MVP’s of Basketball since 2003.
+We also implemented a pagination at the bottom of the page that divides the data set into pages that you can access through the pagination bar below. We can see we have a lot of data that fills 290 pages! It will updated given the searches or edits or additions you make.
             </p>
             <div class="project-details__showcase-img-cont">
               <img
-                src="./assets/png/lifestyleLogin.png"
+                src="./assets/png/NBAtable.png"
+                alt="Project Image"
+                class="project-details__showcase-img"
+              />
+            </div>
+            <br>
+            <p class="project-details__desc-para">
+              This is the UI of our Analysis Data. The first is the analysis of NBA Players’ Career Length. It shows up in a pop up. 
+              A cool feature on all our graphs and you can see on this graph is when you hover over a part of the graph you can see the data displayed. So my cursor was on the 3rd bar in the graph and it shows the data associated with that part of the graph.              
+              </p>
+            <div class="project-details__showcase-img-cont">
+              <img
+                src="./assets/png/NBAanalysis1.png"
+                alt="Project Image"
+                class="project-details__showcase-img"
+              />
+            </div>
+            <br>
+            <p class="project-details__desc-para">
+              These are the two other Analysis Data graphs. The pie chart is of the NBA Players Career Length Scale and the other is shows the top 10 NBA Players.
+In our NBA web application, we have sideBar component, searchBar component, pie chart component, bar chart component and two table components.
+We use these components to split the user interfaces into independent and reusable parts. 
+              </p>
+            <div class="project-details__showcase-img-cont">
+              <img
+                src="./assets/png/NBAanalysis2.png"
                 alt="Project Image"
                 class="project-details__showcase-img"
               />
@@ -185,31 +223,29 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Challenges</h3>
               <p class="project-details__desc-para">
-                Our group had a hard time connecting a database so that user's information would be saved while using the app. This was solved by getting help from volunteering Google Engineers.
+                Our group had a hard time implementing the data flows. After multiple TA office hours here's how we solved it. Data flows to the frontend via get requests. They call a specific backend API which gathers the requested data from the cache to transfer.  Data flows to the backend via Posts, in which the frontend passes comma delimited strings and operation type to the backend to parse out.
               </p>
             </div>
 
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Accomplishments</h3>
               <p class="project-details__desc-para">
-                This program was one of the first times I really had a hands-on experience with coding. For this reason I felt proud to have coded the login page 
-                as I never had an experience doing so. Our project functioned very well once it was time to present and others were impressed by the 
-                different features our app can do.
+                This program has many awesome features that were challenging but rewarding to implement. We have fully functioning add, edit, and delete features. Also the analytic graphs clearly represents our data in a concise way.
+                I'm proud of how it looks. We received great feedback from our professors of how the UI of our project looks good and it easy to follow.
               </p>
             </div>
 
             <div class="project-details__desc">
-              <h3 class="project-details__content-title">What's Next For Lifestyle</h3>
+              <h3 class="project-details__content-title">What's Next For NBA Dataset</h3>
               <p class="project-details__desc-para">
-                We hope to add connections to emails and external services to make students lives easier. One feature I want to create is a language feature so 
-                that our application can be used by students and people all over the world.
+                We hope to add more features such as sharing and exporting the data set tables we created. We also want to be able to learn more about the players in the data set by being able to navigate to their own personal social media account.
               </p>
             </div>
 
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Overview</h3>
               <p class="project-details__desc-para">
-                Google's CSSI program was one of the first times I really coded. It was an amazing experience and I founded my passion for Computer Science and specifically designing through this program. 
+                My Introduction to Software Engineering class final project consisted of my team and I creating a data analytics application to present the NBA Dataset. Along with that, we implemented features such as Add, Edit, Delete, and many more.
                 <div class="project-details__showcase-img-contW">
                   <img
                     src="./assets/jpeg/googlepic.JPG"
@@ -232,18 +268,18 @@
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">JavaScript</div>
+                <div class="skills__skill">React</div>
                 <div class="skills__skill">Python</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Google Cloud Platform</div>
-                <div class="skills__skill">Atom</div>
+                <div class="skills__skill">SCSS</div>
+                <div class="skills__skill">VSCode</div>
+                <div class="skills__skill">Miro</div>
               </div>
             </div>
             <div class="project-details__links">
               <h3 class="project-details__content-title">Project Info</h3>
               <a
-                href="https://github.com/viviane9533/calendarProject"
+                href="https://github.com/viviane9533/CS180Project"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
                 >Code Link</a
